@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(to bottom, #020617, #0b1633, #111d3d);
+    color: #e8ecff;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+
+/* ===== MAIN HEADING ===== */
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+    text-shadow: 0 0 15px #7aa2ff;
+}
+
+
+/* ===== SECTION HEADINGS ===== */
+
+h2 {
+    color: #9bb7ff;
+    font-size: 30px;
+    margin-top: 60px;
+    border-left: 5px solid #7aa2ff;
+    padding-left: 15px;
+
+    text-shadow: 0 0 8px #536dba;
+}
+
+
+/* ===== PARAGRAPHS ===== */
+
+p {
+    font-size: 18px;
+    color: #d9def5;
+    max-width: 850px;
+}
+
+
+/* ===== IMAGES ===== */
+
+img {
+    display: block;
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+
+    margin: 25px auto;
+    border-radius: 15px;
+
+    border: 2px solid #526aa3;
+
+    box-shadow: 0 0 25px rgba(100, 130, 255, 0.35);
+}
+
+
+/* ===== LIST ===== */
+
+ul {
+    background-color: rgba(255, 255, 255, 0.05);
+
+    padding: 25px 40px;
+    margin-top: 25px;
+
+    border-radius: 15px;
+    border: 1px solid rgba(150, 170, 255, 0.2);
+}
+
+
+li {
+    margin: 10px 0;
+    color: #dfe5ff;
+    font-size: 17px;
+}
+
+
+/* ===== QUOTE ===== */
+
+blockquote {
+    margin: 35px 0;
+    padding: 25px 30px;
+
+    background-color: rgba(100, 130, 255, 0.12);
+
+    border-left: 5px solid #9bb7ff;
+    border-radius: 10px;
+
+    color: #ffffff;
+    font-size: 22px;
+    font-style: italic;
+
+    box-shadow: 0 0 20px rgba(80, 110, 255, 0.15);
+}
+
+
+/* ===== MOBILE SCREEN ===== */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    blockquote {
+        font-size: 18px;
+    }
+}
